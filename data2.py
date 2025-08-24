@@ -17,7 +17,7 @@ if account is not None:
     print(f"Balance: {account.balance}")
     print(f"Equity: {account.equity}")
 else:
-    print("⚠ Account info not available")
+    print("Account info not available")
 
 # dates.append(account)
 
@@ -49,3 +49,4 @@ if dates:
     df.to_csv(csv_folder, mode='a', header=not file_exists, index=False)
 else:
     print("No data collected.")
+
